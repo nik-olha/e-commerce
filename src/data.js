@@ -24,3 +24,21 @@ export const sliderItems = [
         
     }
 ]
+
+export const categories = [
+    {
+        id: 1,
+        img: 'https://res.cloudinary.com/dxlba6g7m/image/upload/v1652216313/markus-clemens-mibjbNoS1XA-unsplash_qmxmhj.jpg',
+        title: 'FESTIVE BOUQUETS',
+    },
+    {
+        id: 2,
+        img: 'https://res.cloudinary.com/dxlba6g7m/image/upload/v1652196533/rebecca-A_fBQe39A4k-unsplash_suwzih.jpg',
+        title: 'GORGEOUS PEONY',
+    },
+    {
+        id: 3,
+        img: 'https://res.cloudinary.com/dxlba6g7m/image/upload/v1652216625/pexels-marta-dzedyshko-6341546_oqe3d7.jpg',
+        title: 'PASSION TULIPS',
+    }
+]

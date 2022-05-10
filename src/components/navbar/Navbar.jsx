@@ -19,7 +19,7 @@ const Navbar = () => {
         </div>
         <div className="right">
           <div className="right__menu-item">Register</div>
-          <div className="right__menu-item">Sing in</div>
+          <div className="right__menu-item">Sign in</div>
           <div className="right__menu-item">
             <Badge badgeContent={4} color="primary">
               <ShoppingCartOutlined color="action" />
