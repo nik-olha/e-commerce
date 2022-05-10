@@ -13,13 +13,20 @@ const Slider = () => {
           <div className="slides__img-container">
             <div className="slides__img-container__image">
               <img
-                height="100%" alt=""
+                alt=""
                 src="https://res.cloudinary.com/dxlba6g7m/image/upload/v1651674438/herfst_ahz8z4.jpg"
               />
             </div>
           </div>
           <div className="slides__inf-container">
-            <div className="slides__inf-container__info"></div>
+            <div className="slides__inf-container__info">
+              <h1> BOUQUET OF THE MONTH</h1>
+              <p>
+                BLOOM YOUR HOME WITH THE FLOWER OF THIS MONTH, INSPIRE YOUR
+                HOMMIES
+              </p>
+              <button>SHOP NOW</button>
+            </div>
           </div>
         </div>
       </div>

@@ -1,8 +1,7 @@
 import React from "react";
 import ".//static/Navbar.scss";
-import {Search, ShoppingCartOutlined } from "@mui/icons-material";
+import { Search, ShoppingCartOutlined } from "@mui/icons-material";
 import Badge from "@mui/material/Badge";
-
 
 const Navbar = () => {
   return (
@@ -12,7 +11,7 @@ const Navbar = () => {
           <span className="left__language">EN</span>
           <div className="left__search-container">
             <input></input>
-            <Search style={{color:"gray", fontSize:18}}></Search>
+            <Search style={{ color: "gray", fontSize: 18 }}></Search>
           </div>
         </div>
         <div className="center">
