@@ -3,7 +3,7 @@ import ".//static/Announcement.scss";
 const Announcement = () => {
   return (
     <div className="announcement-container">
-      Free Shipping on your first order!{" "}
+      We donate to Ukraine from evry order!{" "}
     </div>
   );
 };

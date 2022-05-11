@@ -1,0 +1,84 @@
+footer {
+  display: flex;
+  background: rgb(85, 144, 227);
+  background: linear-gradient(
+    0deg,
+    rgba(85, 144, 227, 0.28197216386554624) 0%,
+    rgba(253, 253, 253, 1) 100%
+  );
+}
+.f-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  &____description {
+    margin: 20px 0px;
+  }
+  &__socials {
+    display: flex;
+    &__icon {
+      width: 38px;
+      height: 38px;
+      border-radius: 50%;
+      margin-right: 20px;
+      margin-top: 10px;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+#facebook {
+  background-color: #3b5998;
+}
+#linkeid {
+  background-color: #0a66c2;
+}
+
+#github {
+  background-color: #211f1f;
+}
+#instagram {
+  background: rgb(254, 217, 111);
+  background: linear-gradient(
+    42deg,
+    rgba(254, 217, 111, 1) 0%,
+    rgba(250, 126, 30, 1) 24%,
+    rgba(214, 41, 118, 1) 60%
+  );
+}
+#pinterest {
+  background-color: #e60023;
+}
+.f-right {
+  flex: 1;
+  padding: 20px;
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__item {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+}
+.f-center {
+  flex: 1;
+  padding: 20px;
+  &__title {
+    margin-bottom: 30px;
+  }
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    &__item {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+  }
+}
