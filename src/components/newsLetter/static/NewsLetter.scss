@@ -21,6 +21,12 @@
     display: flex;
     justify-content: space-between;
     border: 1px solid lightgray;
+    &__button {
+      flex: 1;
+      border: none;
+      background-color: teal;
+      color: white;
+    }
   }
 }
 input {
@@ -29,9 +35,4 @@ input {
   padding-left: 20px;
 }
 
-button {
-  flex: 1;
-  border: none;
-  background-color: teal;
-  color: white;
-}
+

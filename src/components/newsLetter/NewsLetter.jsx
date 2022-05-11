@@ -7,11 +7,11 @@ const NewsLetter = () => {
     <div className="news">
       <h1> Newsletter</h1>
       <div className="news__descriotion">
-        Get timly updates from youe favorite flowers
+        Get timly updates from your favorite flowers
       </div>
       <div className="news__input-container">
         <input placeholder="your email"></input>
-        <button>
+        <button className="news__input-container__button">
           <SendIcon />
         </button>
       </div>
