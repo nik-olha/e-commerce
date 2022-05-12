@@ -13,7 +13,7 @@ const Product = () => {
       <div className="wrapper">
           <div className="wrapper__i-container">
               <img alt="" className="wrapper__i-container__img" src="https://res.cloudinary.com/dxlba6g7m/image/upload/v1652367260/pexels-secret-garden-2879821_iln3u2.jpg"></img>
-              
+          <h2 className="wrapper__i-container__title"> </h2>
           </div>
       </div>
       <NewsLetter />
