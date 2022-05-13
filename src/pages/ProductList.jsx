@@ -17,7 +17,6 @@ const ProductList = () => {
           <span className="f-container__filter__text">Filter flowers:</span>
           <select className="f-container__filter__select">
             <option disabled selected>
-              {" "}
               Color
             </option>
             <option> White</option>
@@ -29,7 +28,6 @@ const ProductList = () => {
           </select>
           <select className="f-container__filter__select">
             <option disabled selected>
-              {" "}
               Flower
             </option>
             <option> Tulip</option>
